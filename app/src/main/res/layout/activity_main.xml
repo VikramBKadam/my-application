@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="true"
+                android:textAlignment="center"
+                android:textAppearance="@color/cardview_shadow_start_color"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:background="#FC869E"
+                android:padding="10dp"
+                android:text="Please Register.."
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <EditText
+
+
+                android:id="@+id/editTextTextPersonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#44B864"
+                android:ems="10"
+
+                android:hint="Name"
+                android:inputType="textPersonName"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#DD0A0A"
+                android:ems="10"
+                android:hint="DOB"
+                android:inputType="date"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPostalAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#44B864"
+                android:ems="10"
+                android:hint="Address"
+                android:inputType="textPostalAddress"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#DD0A0A"
+                android:ems="10"
+                android:hint="City"
+                android:inputType="textPersonName"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#44B864"
+                android:ems="10"
+                android:hint="Pin Code"
+                android:inputType="number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextNumber2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#DD0A0A"
+                android:ems="10"
+                android:hint="Mobile No."
+                android:inputType="number"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#44B864"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#DD0A0A"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Interest"
+                android:inputType="textMultiLine"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#44B864"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Profile"
+                android:inputType="textMultiLine"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#DD0A0A"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="Experience"
+                android:inputType="textMultiLine"
+                android:textSize="30sp" />
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:background="#ED0D0D"
+                android:shadowColor="@color/black"
+                android:onClick="onBtnClick"
+                android:clickable="true"
+
+                android:text="Register" />
+
+
+        </LinearLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>
